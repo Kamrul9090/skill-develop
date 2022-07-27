@@ -1,0 +1,13 @@
+.anchor-color {
+    color: rgb(8, 8, 38);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carousel-img {
+    max-height: 500px;
+}
+
+.magine-bott {
+    margin-bottom: 100px;
+}

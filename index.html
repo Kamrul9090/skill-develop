@@ -8,38 +8,219 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ea7b9a9559.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- header section -->
-    <header>
+    <header class="magine-bott">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg bg-light mb-5">
+            <div class="container">
+                <a class="navbar-brand text-primary fw-bold fs-3" href="#">Education</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link anchor-color" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link anchor-color" href="#">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link anchor-color" href="#">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link anchor-color">success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anchor-color">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anchor-color">Register</a>
                         </li>
                     </ul>
+                    <button class="btn btn-info text-light fw-bold">Register</button>
                 </div>
             </div>
         </nav>
+        <!-- carosuel -->
+        <section>
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid carousel-img" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Get Started Digital Learning</h1>
+                                <p>Accelerate your career or business with an online digital skills course in everything
+                                    from marketing to coding and beyond.</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid carousel-img" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Get Started Web developing</h1>
+                                <p>Go from no-code to an in-demand junior web developer, at a fraction of the cost of a
+                                    bootcamp. Start with the front-end by learning HTML, CSS, and JavaScript. Then,
+                                    master the back-end and APIs to round out your full-stack skills.</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cover/cover-3.jpg" class="d-block w-100 carousel-img" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>Learn Javascript</h1>
+                                <p>Do you want to learn JavaScript and find your first job as a programmer?</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
     </header>
+    <!-- main -->
+    <main>
+        <div class="container text-center magine-bott">
+            <h1>Discover Our Popular Courses</h1>
+            <p>The best way to choose a free Massive Open Online Course (MOOC) is to choose one that other people have
+                taken and enjoyed.</p>
+        </div>
+        <!-- Courses section -->
+        <section class="magine-bott">
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                    <div class="col-6">
+                        <div class="p-3 border bg-light">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/course/course-1.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h3>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.</p>
+                                    <h4 class="text-primary">Price: $30</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 border bg-light">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/course/course-1.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h3>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.</p>
+                                    <h4 class="text-primary">Price: $30</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 border bg-light">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/course/course-1.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h3>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.</p>
+                                    <h4 class="text-primary">Price: $30</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 border bg-light">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/course/course-1.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h3>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.</p>
+                                    <h4 class="text-primary">Price: $30</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 border bg-light">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/course/course-1.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h3>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.</p>
+                                    <h4 class="text-primary">Price: $30</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="p-3 border bg-light">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/course/course-1.png" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <h3>Fundamental Of UI/UX Design</h3>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the
+                                        card.</p>
+                                    <h4 class="text-primary">Price: $30</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary">View all</button>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-light pt-4 pb-4">
+        <div class="text-center">
+            <small class="fs-5 fw-bold">Office 41, Zawaya Buildin, Ghala Muscat,
+                <br>Sultanate of Oman</small><br>
+            <a class="text-decoration-none fs-5 fw-bold" href="#"><small>Privacy Policy | Term of use</small></a>
+            <div class="fs-1">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
